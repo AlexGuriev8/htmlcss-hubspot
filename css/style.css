@@ -102,7 +102,7 @@ li .nav_icon {
     position: relative;
     top: 3px;
 }
-.jumbo_image {
+.image {
     background-image: url('../img/foto.png');
     height: 600px;
     background-size: 1200px 600px;
