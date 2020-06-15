@@ -20,7 +20,13 @@ header .top-menu {
   padding-bottom: 20px;
   background-color: #f4f9fd;
 }
-
+header .language {
+  color: #32495b;
+  padding-left: 5px;
+}
+header .buttons .fas {
+  color: #00a4bd;
+}
 header .col {
   float: left;
 }
@@ -304,7 +310,6 @@ main #better-together .bottom-boxes .middle-box {
 /* learn and grow */
 main .learn-and-grow {
   background-color: #00b7ab;
-  height: 400px;
   text-align: center;
 }
 
@@ -316,5 +321,24 @@ main .learn-and-grow h2 {
 main .learn-and-grow p {
   color: white;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 15px;
 }
+.learn-and-grow .first-row {
+  margin-top: 45px;
+}
+.learn-and-grow .second-row{
+  margin-bottom: 45px;
+}
+ .learn-and-grow .element {
+   float: left;
+   width: 25%;
+   text-align: center;
+   border-right: 1px solid white;
+   padding: 25px;
+ }
+ .learn-and-grow .element:last-child{
+border-right: 0;
+ }
+ .learn-and-grow .first-row .element{
+border-bottom: 1px solid white;
+ }
