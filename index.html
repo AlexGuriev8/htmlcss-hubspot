@@ -5,55 +5,69 @@
     <title>HubSpot</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,600,400,800" rel="stylesheet">
   </head>
   <body>
-  <header>
+       <header>
+            <!-- Header parte superiore -->
+          <nav class="menu">
+               <div class="top-menu">
+                      <div class="container clearfix">
+                            <div class="col col-left">
+                               <span class="language" >
+                                    <i class="fa fa-globe" aria-hidden="true" ></i>
+                                    English
+                                    <i class="fa fa-angle-down"></i>
+                               </span>
+                               <span class="contact"> <a href="#">Contact us</a> </span>
+                            </div>
+                            <div class="col col-right">
+                               <span class="buttons">
+                                   <a href="#"><i class="fas fa-search"></i></a>
+                                   <a class="log" href="#">Log In</a>
+                                   <a class="cta" href="#">GetHubSpotFree</a>
+                               </span>
+                            </div>
+                      </div>
+               </div>
+
+               <!-- Header parte inferiore -->
+                 <div class="bottom-menu">
+                     <div class="container clearfix">
+                         <div class="col col-left">
+                             <img src="img/logo.svg" alt="logo">
+                         </div>
+                         <div class="col col-right">
+                           <ul>
+                                <li><a href="#"> Software <i class="fas fa-angle-down"></i> </a></li>
+                                <li><a href="#"> Pricing </a></li>
+                                <li><a href="#"> Resources <i class="fas fa-angle-down"></i> </a></li>
+                                <li><a href="#"> Resources <i class="fas fa-angle-down"></i> </a></li>
+                               <li><a href="#"> Partners <i class="fas fa-angle-down"></i> </a></li>
+                               <li><a href="#"> About <i class="fas fa-angle-down"></i> </a></li>
+                          </ul>
+                         </div>
+                     </div>
+                 </div>
+          </nav>
 
 
-        <div class="fixed">
+       <!-- titolo -->
+        <section id="title">
             <div class="container">
-                <div class="english">
-                       <i class="fas fa-globe"></i><a href="#">English <i class="fas fa-angle-down nav_icon"></i></a>
-                </div>
-                       <div class="contact">
-                              <a href="#">Contact Sales</a>
-                       </div>
-
-                             <div class="cta-container">
-                                  <a href="#"><i class="fa fa-search"></i></a>
-                                  <button id="bt-1"> <span id="log">Log in</span> </button>
-                                  <button id="bt-2"><span id="log1">GetHubSpotFree</span></button>
-                             </div>
-                </div>
-
-                <nav class="nonfixed">
-                    <div class="container clearfix">
-                        <img id="logo" src="https://logos-download.com/wp-content/uploads/2016/09/HubSpot_logo-700x204.png" alt="Hubspot">
-
-                        <div class="menu">
-                            <ul>
-                                <li><a href="">Software <i class="fas fa-angle-down nav_icon"></i></a></li>
-                                <li><a href="">Pricing</a></li>
-                                <li><a href="">Resources <i class="fas fa-angle-down nav_icon"></i></a></li>
-                                <li><a href="">Partners <i class="fas fa-angle-down nav_icon"></i></a></li>
-                                <li><a href="">About <i class="fas fa-angle-down nav_icon"></i></a></li>
-                            </ul>
-                        </div>
-                </div>
-                </nav>
-
-                <header class="image">
-        <div class="container">
-            <div class="banner">
-                <div class="title">
-                    <h1>There's a better way to grow</h1>
-                    <h4>Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer".</h4>
-                    <button>GetHubspotFree</button>
-                    <h5>Get started with FREE tools, and uprgrade as you grow.</h5>
-                </div>
+              <div class="sec-container">
+                  <h1>There is a better way to grow.</h1>
+                  <p class="text">Marketing, sales, and service software that
+                     helps your business grow without compromise. Because “good for the business”
+                     should also mean “good for the customer.
+                  </p>
+                  <a class="cta" href="#">GetHubspotFree</a>
+                  <p class="font">Get started with FREE tools, and upgrade as you grow.</p>
+              </div>
             </div>
-        </div>
-    </header>
+        </section>
 
+        <div class="end"></div>
+  </header>
   </body>
 </html>
