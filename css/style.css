@@ -318,17 +318,21 @@ main .learn-and-grow h2 {
   padding-top: 25px;
   font-size: 25px;
 }
+
 main .learn-and-grow p {
   color: white;
   margin-top: 20px;
   font-size: 15px;
 }
+
 .learn-and-grow .first-row {
   margin-top: 45px;
 }
-.learn-and-grow .second-row{
+
+.learn-and-grow .second-row {
   margin-bottom: 45px;
 }
+
  .learn-and-grow .element {
    float: left;
    width: 25%;
@@ -336,9 +340,63 @@ main .learn-and-grow p {
    border-right: 1px solid white;
    padding: 25px;
  }
+
  .learn-and-grow .element:last-child{
 border-right: 0;
  }
+
  .learn-and-grow .first-row .element{
 border-bottom: 1px solid white;
  }
+/* custumers */
+main .custumers .col {
+  float: left;
+}
+main .custumers .col-left {
+  width: 20%;
+  text-align: center;
+
+}
+main .custumers .col-right {
+  width: 65%;
+  margin-left: 15%;
+}
+main .custumers .col-right ul li{
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 12px;
+  height: 40px;
+  text-align: center;
+}
+main .custumers .partners .col-right img{
+
+  vertical-align: middle;
+  height: 30px;
+}
+main .custumers .col h2 {
+color: #33475b;
+
+font-size: 30px;
+}
+
+main .custumers .col p {
+  color: #33475b;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.custumers .growing .col-right img {
+  height: 330px;
+}
+.custumers .growing .col-right {
+  width: 65%;
+text-align: right;
+}
+.custumers .growing .col-left {
+  width: 35%;
+}
+.custumers .growing .col-left h2 {
+  margin-top: 30px;
+}
+.custumers .growing .col-left a {
+  padding: 15px;
+}
