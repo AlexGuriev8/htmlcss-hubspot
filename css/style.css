@@ -11,6 +11,7 @@
 }
 
 .container {
+
   margin: 0 auto;
   padding: 0 10%;
 }
@@ -130,6 +131,7 @@ header #title {
   color: #32495b;
   font-size: 20px;
 }
+
 h1 {
   color: #32495b;
   font-size: 30px;
@@ -146,3 +148,96 @@ header .end{
   border-bottom: 3px solid black;
 }
 /* Fine parte superiore */
+
+main #better-together{
+  background-color: #f4f9fd;
+  padding-top: 50px;
+}
+
+main .titolo {
+  text-align: center;
+  padding: 0 20%;
+}
+
+main .titolo img {
+  height: 300px;
+}
+
+main h2 {
+color: #33475b;
+font-size: 20px;
+}
+
+main #better-together .titolo p {
+  margin: 40px 0;
+  color: #5d6e7e;
+  font-size: 20px;
+}
+main .upper-box .col-right p {
+  padding: 30px 0;
+  color: #5d6e7e;
+  font-size: 20px;
+}
+
+/* free hub */
+main #better-together .box {
+background-color: white;
+border: 1px solid;
+border-radius: 5px;
+}
+
+main #better-together .upper-box{
+  padding: 5%;
+}
+ .box img {
+  height: 100px;
+  display: block;
+  margin-bottom: 20px;
+}
+.box .col {
+  float: left;
+}
+
+main .box .cta {
+  padding: 20px;
+  text-align: center;
+}
+main .upper-box .col-left {
+  width: 30%;
+}
+main .upper-box .col-right {
+width: 70%;
+}
+h4 {
+  color: #33475b;
+  font-size: 30px;
+}
+.upper-box .col p{
+  padding: 30px 0;
+}
+.col h5 {
+  color: #33475b;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.upper-box .sub-col {
+  float: left;
+}
+.upper-box .sub-col-left {
+  width: 20%;
+}
+.upper-box .sub-col-right {
+  width: 70%;
+  padding: 10px 0;
+}
+
+.upper-box .end i {
+  color: #fe775a;
+  padding-right: 8px;
+  padding-right: 15px;
+}
+
+.upper-box .end {
+  padding-top: 25px;
+}
