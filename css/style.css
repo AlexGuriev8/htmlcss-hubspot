@@ -11,7 +11,6 @@
 }
 
 .container {
-
   margin: 0 auto;
   padding: 0 10%;
 }
@@ -189,11 +188,13 @@ border-radius: 5px;
 main #better-together .upper-box{
   padding: 5%;
 }
+
  .box img {
   height: 100px;
   display: block;
   margin-bottom: 20px;
 }
+
 .box .col {
   float: left;
 }
@@ -202,31 +203,39 @@ main .box .cta {
   padding: 20px;
   text-align: center;
 }
+
 main .upper-box .col-left {
   width: 30%;
 }
+
 main .upper-box .col-right {
 width: 70%;
 }
+
 h4 {
   color: #33475b;
   font-size: 30px;
 }
+
 .upper-box .col p{
   padding: 30px 0;
 }
+
 .col h5 {
   color: #33475b;
   font-size: 20px;
   text-transform: uppercase;
   display: inline-block;
 }
+
 .upper-box .sub-col {
   float: left;
 }
+
 .upper-box .sub-col-left {
   width: 20%;
 }
+
 .upper-box .sub-col-right {
   width: 70%;
   padding: 10px 0;
@@ -234,10 +243,47 @@ h4 {
 
 .upper-box .end i {
   color: #fe775a;
-  padding-right: 8px;
-  padding-right: 15px;
+  padding: 0px 10px;
 }
 
 .upper-box .end {
   padding-top: 25px;
+}
+/* e blocchi  */
+main #better-together .bottom-boxes .box {
+  width: 30%;
+  margin: 40px 0px;
+  text-align: center;
+  padding: 20px 35px;
+}
+.bottom-boxes .box img {
+  display: inline-block;
+}
+.bottom-boxes .box .end {
+text-align: left;
+margin-bottom: 30px;
+}
+#better-together .col {
+  float: left;
+}
+main #better-together .bottom-boxes .middle-box {
+  margin: 40px 5%;
+}
+.bottom-boxes .box h4 {
+  margin-bottom: 30px;
+}
+.bottom-boxes .box hr {
+  margin-top: 40px;
+}
+.bottom-boxes .box h5 {
+  margin: 30px 0;
+}
+.bottom-boxes  .end {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.bottom-boxes .box i {
+  padding-right: 8px;
+  color: #fe775a;
 }
