@@ -437,5 +437,66 @@ footer .top-footer .col {
 footer .col h4 {
   color: white;
   font-size: 20px;
+  padding-bottom: 10px;
+}
+footer a {
+  color:#cbd6e2;
+}
+
+.top-footer .col li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.top-footer .col li a {
+    text-decoration: none;
+}
+
+.top-footer .col .cta {
+  padding: 10px;
+  background-color: #dadee0;
+  border-color:  #dadee0;
+}
+
+.top-footer .col span {
+  color: #32495b;
+}
+
+.top-footer .col-four .sub-list li {
+  display: inline-block;
+  margin-right: 20px;
+  color:  #dadee0;
+}
+.bottom-footer ul {
+  text-align: center;
+}
+.bottom-footer ul li {
+ display: inline-block;
+  margin-right: 20px;
+
+}
+.bottom-footer ul li a {
+  text-decoration: none;
+}
+
+.bottom-footer hr {
+  margin-top: 15px;
   margin-bottom: 20px;
+  color: white;
+}
+
+footer .bottom-footer .col {
+  float: left;
+  width: 50%;
+}
+
+.bottom-footer .col-right {
+  text-align: right;
+}
+.bottom-footer .col p {
+  color: white;
+  font-size: 15px;
+}
+.bottom-footer .last{
+  padding-bottom: 20px;
 }
