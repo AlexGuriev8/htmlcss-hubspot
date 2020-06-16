@@ -341,38 +341,43 @@ main .learn-and-grow p {
    padding: 25px;
  }
 
- .learn-and-grow .element:last-child{
+ .learn-and-grow .element:last-child {
 border-right: 0;
  }
 
- .learn-and-grow .first-row .element{
+ .learn-and-grow .first-row .element {
 border-bottom: 1px solid white;
  }
 /* custumers */
 main .custumers .col {
   float: left;
 }
+
 main .custumers .col-left {
   width: 20%;
   text-align: center;
 
 }
+
 main .custumers .col-right {
   width: 65%;
   margin-left: 15%;
 }
-main .custumers .col-right ul li{
+
+main .custumers .col-right ul li {
   display: inline-block;
   margin-bottom: 30px;
   margin-right: 12px;
   height: 40px;
   text-align: center;
 }
-main .custumers .partners .col-right img{
+
+main .custumers .partners .col-right img {
 
   vertical-align: middle;
   height: 30px;
 }
+
 main .custumers .col h2 {
 color: #33475b;
 
@@ -384,19 +389,53 @@ main .custumers .col p {
   font-size: 20px;
   margin-top: 20px;
 }
+
 .custumers .growing .col-right img {
   height: 330px;
 }
+
 .custumers .growing .col-right {
   width: 65%;
-text-align: right;
+ text-align: right;
 }
+
 .custumers .growing .col-left {
-  width: 35%;
+width: 20%;
 }
+
 .custumers .growing .col-left h2 {
   margin-top: 30px;
 }
+
 .custumers .growing .col-left a {
   padding: 15px;
+}
+
+.custumers .growing .col p{
+  margin:  30px 10px;
+}
+
+.custumers .growing .col .cta {
+  padding: 20px;
+}
+
+/* footer */
+footer {
+  background-color: #32495b;
+}
+footer .container .top-footer {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+footer .top-footer .col {
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+
+footer .col h4 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
